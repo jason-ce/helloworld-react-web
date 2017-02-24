@@ -1,0 +1,6 @@
+nodejs:
+  version: '5.10.1'
+hooks:
+  pre_setup: npm install
+tests:
+  - npm test
