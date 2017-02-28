@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
+    "helloworld-shared": "git+https://jason-cramfighter@github.com/jason-cramfighter/helloworld-shared.git#master",
     "react-scripts": "0.9.0"
   },
   "dependencies": {
+    "helloworld-shared": "git+https://jason-cramfighter@github.com/jason-cramfighter/helloworld-shared.git#master",
     "react": "^15.4.2",
     "react-dom": "^15.4.2"
   },
