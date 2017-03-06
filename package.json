@@ -3,9 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:8000",
-  "devDependencies": {
-    "helloworld-shared": "git+https://jason-cramfighter@github.com/jason-cramfighter/helloworld-shared.git#master",
-    "react-scripts": "0.9.0",
+  "devDependencies": {    
+    "react-scripts": "0.9.4",
     "request": "^2.79.0",
     "require": "^2.4.20"
   },
