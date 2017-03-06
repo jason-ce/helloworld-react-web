@@ -11,13 +11,11 @@ class App extends Component {
     this.clickHandler = this.clickHandler.bind(this);
   }
   clickHandler(){
-    let google = new shared.api.Google();
+    let bookAPI = new shared.api.Books();
     var self = this;
-    let url = "http://localhost:8000";
-    //let url = "http://localhost:8000/study-schedule/api/v2/overview/?today=2017-03-06";
-    google.getJSON(function(data){
+    bookAPI.getChapter(function(data){
       self.setState({response:data});
-    }, url);
+    });
   }
   render() {    
     return (
